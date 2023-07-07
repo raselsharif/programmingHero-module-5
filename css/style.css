@@ -1,0 +1,159 @@
+/* ======== common CSS ========== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* ========== banner section ======== */
+#banner {
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner__text {
+    padding: 126px 0 166px 0;
+    max-width: 494px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.banner__heading {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner__paragraph {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.btn__primary {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+/* ========== failure section ======= */
+#failure{
+    padding: 130px 0;
+}
+.failure__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+.failure__heading{
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    max-width: 288px;
+}
+.failure__description{
+    max-width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.failure__list{
+
+}
+.failure__list_text{
+    display: inline-block;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* ======== plan section ==== */
+#plan{
+padding-bottom: 135px;
+}
+.plan__container{
+    display: flex;
+    justify-content: space-between;
+}
+.plan__heading{
+color: #151414;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 55px;
+}
+.plan__items{
+text-align: center;
+}
+.plan__icon{
+width: 55px;
+margin-bottom: 18px;
+}
+.plan__item__heading{
+color:#151414;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 16px;
+}
+.plan__description{
+color: #737272;
+font-size: 25px;
+font-weight: 500;
+}
+
+/* ========== positive section ==== */
+#positive{
+    padding-bottom:130px;
+}
+.positive__banner{
+background:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url("../images/watch.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 8px;
+padding: 60px 0 60px 64px;
+}
+.posiive__heading{
+    width: 460px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.secondary__btn{
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 35px;
+    border: 0;
+    cursor: pointer;
+}
