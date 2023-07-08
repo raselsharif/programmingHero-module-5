@@ -10,6 +10,7 @@ ul,
 ol {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
     display: inline-block;
@@ -62,23 +63,26 @@ a {
 }
 
 /* ========== failure section ======= */
-#failure{
+#failure {
     padding: 130px 0;
 }
-.failure__container{
+
+.failure__container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 80px;
 }
-.failure__heading{
-    color:  #151414;
+
+.failure__heading {
+    color: #151414;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
     max-width: 288px;
 }
-.failure__description{
+
+.failure__description {
     max-width: 416px;
     color: #444343;
     font-size: 16px;
@@ -86,10 +90,10 @@ a {
     line-height: 26px;
     margin-bottom: 16px;
 }
-.failure__list{
 
-}
-.failure__list_text{
+.failure__list {}
+
+.failure__list_text {
     display: inline-block;
     color: #444343;
     font-size: 16px;
@@ -98,62 +102,158 @@ a {
 }
 
 /* ======== plan section ==== */
-#plan{
-padding-bottom: 135px;
+#plan {
+    padding-bottom: 135px;
 }
-.plan__container{
+
+.plan__container {
     display: flex;
     justify-content: space-between;
 }
-.plan__heading{
-color: #151414;
-font-size: 40px;
-font-weight: 700;
-text-align: center;
-margin-bottom: 55px;
+
+.plan__heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 55px;
 }
-.plan__items{
-text-align: center;
+
+.plan__items {
+    text-align: center;
 }
-.plan__icon{
-width: 55px;
-margin-bottom: 18px;
+
+.plan__icon {
+    width: 55px;
+    margin-bottom: 18px;
 }
-.plan__item__heading{
-color:#151414;
-font-size: 30px;
-font-weight: 700;
-margin-bottom: 16px;
+
+.plan__item__heading {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
-.plan__description{
-color: #737272;
-font-size: 25px;
-font-weight: 500;
+
+.plan__description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 /* ========== positive section ==== */
-#positive{
-    padding-bottom:130px;
+#positive {
+    padding-bottom: 130px;
 }
-.positive__banner{
-background:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url("../images/watch.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 8px;
-padding: 60px 0 60px 64px;
+
+.positive__banner {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url("../images/watch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 60px 0 60px 64px;
 }
-.posiive__heading{
+
+.posiive__heading {
     width: 460px;
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
 }
-.secondary__btn{
+
+.secondary__btn {
     border-radius: 5px;
     background: #FFF;
     padding: 20px 35px;
     border: 0;
     cursor: pointer;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ======== footer section ========= */
+footer {
+    background: #151414;
+    padding: 130px 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+}
+
+.footer__heading {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer__paragraph {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    max-width: 485px;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.footer__contact li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer__social {
+    display: flex;
+    gap: 17px;
+}
+
+.footer__social a {
+    text-decoration: none;
+}
+
+.footer__social i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background: #FFF;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+.footer__sub__heading {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#email {
+    background: transparent;
+    padding: 20px;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    outline: 0;
+    max-width: 325px;
 }
